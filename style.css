@@ -1,0 +1,172 @@
+body{
+    height: max-content;
+    background-image: linear-gradient(to bottom, rgb(43, 39, 40), rgb(113, 91, 97));
+} 
+
+.m1{
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    
+    position: relative;
+}
+
+.m2{
+    width: 150px;
+    height: 150px;
+    /* left: 500px; */
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+.m3{
+    width: 200px;
+    height: 200px;
+    left: 900px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+
+.m4{
+    width: 20px;
+    height: 20px;
+    left: 800px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+
+
+.m5{
+    width: 500px;
+    height: 500px;
+    /* top: 0px; */
+    left: 1000px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+.m6{
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    /* left: 1000px; */
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+/* .m7{
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+    animation-duration: 30s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+
+.m8{
+    width: 150px;
+    height: 150px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+    animation-duration: 40s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+
+.m9{
+    width: 200px;
+    height: 200px;
+    left: 900px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;    
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+    animation-duration: 50s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+
+.m10{
+    width: 20px;
+    height: 20px;
+    left: 800px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: 1;
+    animation-duration: 40s;  
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+
+.m11{
+    width: 500px;
+    height: 500px;
+    top: 0px;
+    left: 1000px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+    animation-duration: 60s;  
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+}
+.m12{
+    width: 500px;
+    height: 500px;
+    top: 0px;
+    left: 1000px;
+    background-color:  rgba(226, 212, 218, 0.095);
+    animation-name: lefy;
+    animation-iteration-count: 1;
+    animation-duration: 60s;  
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    position: relative;
+} */
+
+@keyframes lefy {
+    0% {top: -360px; transform: rotateZ(0deg); }
+    100% {top: 723px; transform: rotateZ(200deg); background-color: rgba(172, 162, 166, 0);}
+}
